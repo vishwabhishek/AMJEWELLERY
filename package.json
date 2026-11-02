@@ -1,0 +1,17 @@
+{
+  "name": "am-jewellery",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AM Jewellery — High-fidelity luxury jewellery digital experience featuring Three.js 3D WebGL, custom shaders, and interactive bench configurator.",
+  "workspaces": [
+    "templates/*"
+  ],
+  "scripts": {
+    "dev": "npm --prefix templates/aldersmith run dev",
+    "build": "npm --prefix templates/aldersmith run build",
+    "preview": "vite preview --outDir dist"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
